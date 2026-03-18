@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #059669; /* emerald-600 */
+  --color-primary-dark: #065f46; /* emerald-800 */
+  --color-primary-light: #d1fae5; /* emerald-100 */
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans;
+}
+
